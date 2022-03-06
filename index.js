@@ -11,7 +11,7 @@ const app = express();
 
     db.once("connected",()=>{
         console.log("DB connection open");
-        app.listen(3000, (req, res) => {
+        app.listen(3001, (req, res) => {
 
             console.log("Server started");
         })
