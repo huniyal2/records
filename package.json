@@ -4,6 +4,7 @@
   "description": "test POST API",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "unit-tests": "mocha --full-trace --bail --check-leaks --timeout 30000 --recursive --exit test/unit-tests"
   },
   "author": "",
