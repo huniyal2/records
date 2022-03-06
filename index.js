@@ -11,7 +11,7 @@ const app = express();
 
     db.once("connected",()=>{
         console.log("DB connection open");
-        app.listen(3001, (req, res) => {
+        app.listen(process.env.PORT || 3001, (req, res) => {
 
             console.log("Server started");
         })
